@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+   font-family: 'Quicksand',sans-serif;
+}
+ 
+ .dark-mode {
+   background-color: black;
+   color: red;
+ }
+
+ .tombolgelap{
+    width: 150px;
+    height: 60px;
+    font-weight: 100;
+    border-radius: 12px;
+    background-color: #5dca88;
+    cursor: pointer;
+   box-shadow: 0 7px #1a7940;
+ }
+
+ .tombolgelap:hover{
+   background-color: rgb(148, 215, 219);
+   transition: 0.5s;
+ }
+
+ .tombolgelap:active{
+   position: relative;
+   top: 7px;
+   box-shadow: none;
+  }
+
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+.cover {
+   font-size: 20px;
+   padding: 60px;
+   background-image: url("https://wallpapercave.com/wp/wp3592340.jpg");
+   background-position: -200px;
+   background-blend-mode: lighten;
+   text-align: left;
+   color: white;
+   display: flex;
+}
+
+.cover_left {
+   padding-right: 200px;
+}
+.cover_right{
+   width: 256px;
+   margin-left: 350px;
+}
+.imgcover {
+   width: 200px;
+}
+
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   padding: 0 25px;
+   color: white;
+   transition: all 0.5s;
+}
+
+nav a:hover {
+   font-weight: bold;
+   color: rgb(216, 216, 151);
+   background-color: rgb(9, 115, 117);
+}
+nav ul{
+   padding-left: 60px;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   padding-right: 20px;
+   padding-left: 20px;
+}
+
+nav {
+   background-color: #0784a0c9;
+   padding: 5px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   display: flex;
+}
+
+.imgcari {
+   padding-left: 650px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+}
+
+.imgsearch {
+   width: 34px;
+   margin: (0px, 10px, 20px, 20px);
+}
+
+.btncari{
+   background-color:#00a2c6;
+}
+
+.btncari:hover{
+   background-color: rgb(148, 215, 219);
+}
+
+body {
+   font-family: 'Quicksand', sans-serif;
+   margin: 0;
+   padding: 0px;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+.card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      padding: 20px;
+ }
+
+.profile header {
+   text-align: center;
+}
+.profile img {
+   width: 200px;
+}
+.profile h3 {
+   text-align: center;
+}
+
+.featured-image {
+   width: auto;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 12px;
+}
+
+.judul {
+   text-align: Left;
+   color: darkslategrey;
+}
+
+.isiartikel{
+   padding-left: 60px;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   padding-right: 60px;
+}
+#LBS {
+   margin: auto;
+   text-align: justify;
+   position: center;
+   display: flex;
+   padding-left: 20px;
+}
+
+#LSD {
+   margin: auto;
+   text-align: justify;
+   position: center;
+   display: flex;
+   padding-left: 20px;
+}
+
+#LP2B {
+   margin: auto;
+   text-align: justify;
+   position: center;
+   display: flex;
+   padding-left: 20px;
+}
+
+.peraturan {
+   text-align: center;
+}
+
+.container {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+
+.lesson {
+   float: left;
+   width: 25%;
+ }
+ 
+
+ .lesson-icon img {
+   width: 50px;
+ }
+ 
+ .lesson-wrapper {
+   padding-bottom: 80px;
+   padding-left: 5%;
+   padding-right: 5%;
+   text-align: center;
+ }
+
+table {
+   margin: auto;
+   text-align: left;
+}
+
+input {
+   width:400px;
+   margin-top:10px;
+   margin-bottom:30px;
+   padding:20px;
+   font-size:18px;
+   border: 1px solid #dee7ec;
+ }
+ .form {
+   width:400px;
+   margin-top:10px;
+   margin-bottom:30px;
+   padding:20px;
+   font-size:18px;
+   font-size:18px;
+   border: 1px solid #dee7ec
+   }
+ .contact-form {
+    padding: 20px;
+    text-align: center;
+ }
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+   width: 100%;
+}
